@@ -1,0 +1,67 @@
+@import "null.css";
+/*===================================================================================================================*/
+body {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+}
+.conteiner {
+    max-width: 390px;
+    margin: 0 auto;
+    height: 100%;
+}
+.header p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    margin-bottom: 40px;
+}
+h1::before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 50px;
+    background-color: red;
+}
+h1::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: black;
+}
+
+li {
+    margin-bottom: 12px;
+    padding: 0 0px 0 30px;
+}
+li::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../img/list.svg") 0 5px / auto no-repeat;
+    margin: 0 10px 0 -30px;
+}
+footer button {
+    padding: 0px 33px;
+    color: floralwhite;
+    background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 44px;
+    margin-top: 44px;
+}
